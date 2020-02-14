@@ -1,0 +1,189 @@
+/*FONTS
+Museo Sans 300
+font-family: museo-sans,
+sans-serif;
+font-weight: 300;
+font-style: normal;
+
+Beloved Sans
+font-family: beloved-sans,sans-serif;
+font-weight: 400;
+font-style: normal; */
+
+/* START OF MEDIA QUERIES*/
+
+@media (max-width: 900px) {}
+
+@media (min-width: 600px) {}
+
+/* END OF MEDIA QUERIES
+
+/*NAVIGATION BAR*/
+
+.topnav {
+    font-family: beloved-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    grid-column: 1/5;
+    grid-row: 1/1;
+    margin-right: 30px;
+}
+
+.topnav #myLinks {
+    position: fixed;
+    right: 0;
+    display: none;
+    margin-right: 20px;
+    font-family: museo-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.topnav a {
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+
+}
+
+.topnav a.icon {
+    background: white;
+    display: grid;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.active {
+    font-family: museo-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    margin-right: 10px;
+
+}
+
+a.icon:hover {
+    background-color: darkgrey;
+}
+
+a:hover {
+    color: white;
+}
+
+/*END OF NAV*/
+
+
+/*START OF BLOCKS*/
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 25px;
+    height: 736px;
+    padding: 10px;
+}
+
+.blockone {
+    grid-row: 2/2;
+    color: white;
+}
+
+.blocktwo {
+    grid-column: 2/4;
+    grid-row: 3/11;
+}
+
+.#blocktwo {
+    grid-row: 3/7;
+    grid-column: 1/3;
+}
+
+.blockthree {
+    grid-column: 1/5;
+    grid-row: 12/12;
+    font-family: museo-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 45px;
+    color: white;
+    text-align: justify;
+}
+
+.blockfour {
+    grid-column: 1/5;
+    grid-row: 13/15;
+}
+
+#blockfour {
+    grid-column: 1/2;
+    grid-row: 13/15;
+}
+
+#blockfour1 {
+    grid-row: 13/15;
+}
+
+.blockfive {
+    grid-column: 1/5;
+    grid-row: 15/15;
+    font-family: museo-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    text-align: justify;
+    font-size: 45px;
+}
+
+.blocksix {
+    grid-column: 2/4;
+    grid-row: 16/20;
+}
+
+.blockseven {
+    grid-column: 2/4;
+    grid-row: 20/20;
+}
+
+/*END OF BLOCKS*/
+
+
+/* START OF STYLES*/
+
+body {
+    background-color: black;
+}
+
+.header {
+    font-size: 60px;
+    font-family: beloved-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    display: grid;
+    grid-column: 1/5;
+    grid-row: 2/2/;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+li {
+    color: white;
+    font-size: 35px;
+    list-style: none;
+    text-align: center;
+}
+
+/* END OF STYLES*/
+
+.#blockthree {
+    grid-row:7/11;
+    grid-column: 1/3;
+}
