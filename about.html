@@ -1,79 +1,125 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--FONTS START HERE-->
     <link rel="stylesheet" href="https://use.typekit.net/xnv3osi.css">
     <link rel="stylesheet" href="https://use.typekit.net/xnv3osi.css">
+    <!--FONTS END HERE-->
+
+    <!--STYLESHEET STARTS HERE-->
     <link rel="stylesheet" href="stylesheet.css">
-    <script src="/script.js" defer></script>
+    <!--STYLESHEET ENDS HERE-->
+
+    <!--FONT AWESOME LINK STARTS HERE-->
+    <link rel="stylesheet" href="https://fontawesome.com/icons/paw">
+    <!--FONT AWESOME LINK ENDS HERE-->
+
+    <!--JAVA STARTS HERE-->
+    <script src="script.js" defer></script>
+    <!--JAVA ENDS HERE-->
+
     <title>Penny the Pointer</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="topnav">
+    <div class="topnav">
 
-            <!-- Navigation bar -->
+        <!-- Navigation bar -->
 
-            <a href="#index">Penny the Pointer</a>
+        <a href="#index">Penny the Pointer</a>
 
-            <!-- menu-->
-            <div id="myLinks">
-                <a href="#about" class="active">About</a>
-                <a href="#contact">Gallery</a>
-            </div>
-
-            <!-- menu trigger-->
-            <a class="icon" onclick="showMenu()">
-                <img src="https://cdn.glitch.com/36a0c12c-e227-4265-af26-734c4c458206%2Fmenu-24px.svg">
-            </a>
-
-        </div>
-        <!--End of Nav Bar-->
-        <div class="blockone header">About Penny the Pointer</div>
-
-        <div class="blocktwo"><img src="images/Penny%201.HEIC"></div>
-
-        <div class="blockthree header"> Quick Facts</div>
-
-        <div class="blockfour">
-            <li>Name</li>
-            <li>Penny</li>
-            <li>Birthday</li>
-            <li>April 27, 2017</li>
-            <li>Fur Color</li>
-            <li>Black & White</li>
-            <li>Coat Markings</li>
-            <li>Crescent Moon White Spot on Right Ear</li>
-            <li>Eye Color</li>
-            <li>Brown</li>
-            <li>Height</li>
-            <li>Tall enough to reach the dinner table</li>
-            <li>Weight</li>
-            <li>Chunky</li>
+        <!-- menu-->
+        <div id="myLinks">
+            <a href="index.html" id="menu">Home</a>
+            <a id="menuactive" href="about.html">About</a>
+            <a id="menu" href="gallery.html">Gallery </a>
         </div>
 
-        <div class="blockfive header">Tricks and Skills</div>
-
-        <div class="blocksix">
-            <li>Sit</li>
-            <!--paw icon will go underneath each category as level indication-->
-            <li>Paw</li>
-            <li>High Five</li>
-            <li>Speak</li>
-            <li>Lay</li>
-            <li>Give Kiss</li>
-
-            <div class="blockseven">
-                <video controls>
-                    <source src="images/Penny%207.mp4" type="video/mp4"></video>
-
-            </div>
-
-
-
-        </div>
+        <!-- menu trigger-->
+        <a class="icon" onclick="showMenu()">
+            <img src="https://cdn.glitch.com/36a0c12c-e227-4265-af26-734c4c458206%2Fmenu-24px.svg">
+        </a>
 
     </div>
-</body></html>
+    <!--End of Nav Bar-->
+
+    <div class="container">
+
+        <div id="blocktwo" class="header">About Penny the Pointer</div>
+
+        <div id="blockthree"><img src="images/Penny%20Pic%207.jpg"></div>
+
+        <div class="blockfour header"> Quick Facts</div>
+
+        <div class="blockfive">
+            <li class="title">Name</li>
+            <li class="fact">Penny</li>
+
+            <li class="title">Birthday</li>
+            <li class="fact">April 27, 2017</li>
+
+            <li class="title">Fur Color</li>
+            <li class="fact">Black and White</li>
+
+            <li class="title">Coat Markings</li>
+            <li class="fact">Crescent Moon White Spot on Right Ear</li>
+
+            <li class="title">Eye Color</li>
+            <li class="fact">Brown</li>
+
+            <li class="title">Height</li>
+            <li class="fact">Tall enough to reach the dinner table</li>
+
+            <li class="title">Weight</li>
+            <li class="fact">Chunky</li>
+        </div>
+
+        <div class="blocksix header">Tricks and Skills</div>
+
+        <div class="blockseven">
+            <li class="title">Sit</li>
+            <div id="imgpaw">
+                <img src="images/sit.png">
+            </div>
+            <li class="title">Lay</li>
+            <div id="imgpaw">
+                <img src="images/lay.png">
+            </div>
+            <li class="title">Paw</li>
+            <div id="imgpaw">
+                <img src="images/sit.png">
+            </div>
+            <li class="title">High Five</li>
+            <div id="imgpaw">
+                <img src="images/sit.png">
+            </div>
+            <li class="title">Speak</li>
+            <div id="imgpaw">
+                <img src="images/kiss.png">
+            </div>
+
+            <li class="title">Give Kiss</li>
+            <div id="imgpaw">
+                <img src="images/kiss.png">
+            </div>
+
+            <div class="blockeight">
+                <video controls>
+                    <source src="images/Penny%20Video%208.mp4" type="video/mp4"></video>
+
+            </div>
+
+
+
+        </div>
+        <footer class="blocknine">
+            <p>Penny the Pointer: The Nastiest Girl in the World!</p>
+        </footer>
+    </div>
+</body>
+
+</html>

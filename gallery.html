@@ -4,45 +4,114 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--FONTS START HERE-->
     <link rel="stylesheet" href="https://use.typekit.net/xnv3osi.css">
     <link rel="stylesheet" href="https://use.typekit.net/xnv3osi.css">
+    <!--FONTS END HERE-->
+
+    <!--STYLESHEET STARTS HERE-->
     <link rel="stylesheet" href="stylesheet.css">
-    <script src="/script.js" defer></script>
+    <!--STYLESHEET ENDS HERE-->
+
+    <!--FONT AWESOME LINK STARTS HERE-->
+    <link rel="stylesheet" href="https://fontawesome.com/icons/paw">
+    <!--FONT AWESOME LINK ENDS HERE-->
+
+    <!--JAVA STARTS HERE-->
+    <script src="script.js" defer></script>
+    <!--JAVA ENDS HERE-->
     <title>Penny the Pointer</title>
 </head>
 
 <body>
+    <div class="topnav">
+
+        <!-- Navigation bar -->
+
+        <a href="#index">Penny the Pointer</a>
+
+        <!-- menu-->
+        <div id="myLinks">
+            <a href="index.html" id="menu">Home</a>
+            <a id="menu" href="about.html">About</a>
+            <a id="menuactive" href="gallery.html">Gallery </a>
+        </div>
+
+        <!-- menu trigger-->
+        <a class="icon" onclick="showMenu()">
+            <img src="https://cdn.glitch.com/36a0c12c-e227-4265-af26-734c4c458206%2Fmenu-24px.svg">
+        </a>
+
+    </div>
+    <!--End of Nav Bar-->
     <div class="container">
-        <div class="topnav">
 
-            <!-- Navigation bar -->
+        <!--NEW PENNY CONTENT STARTS HERE-->
+        <div class="blocktwo">
+            <p class="header">New Penny Content</p>
 
-            <a href="#index">Penny the Pointer</a>
 
-            <!-- menu-->
-            <div id="myLinks">
-                <a href="#about">About</a>
-                <a href="#gallery" class="active">Gallery</a>
+            <div class="scroll">
+                <img class="galleryimg" src="images/Penny%20Pic%205.jpg">
+                <img class="galleryimg" src="images/Penny%20Pic%203.jpg">
+                <img class="galleryimg" src="images/Penny%20Pic%208.jpg">
+                <img class="galleryimg" src="images/Penny%20Pic%2010.jpg">
+                <img class="galleryimg" src="images/Penny%20Pic%204.jpg">
+            </div>
+        </div>
+        <!--NEW PENNY CONTENT ENDS HERE-->
+
+        <!--PUPPY STARTS HERE-->
+        <div id="blockthree">
+            <p class="header">The Puppy Years</p>
+
+
+            <div class="scroll">
+                <img class="galleryimg" src="images/Penny%20Pic%201.jpg">
+                <img class="galleryimg" src="images/Penny%20Pic%2011.jpg">
+                <img class="galleryimg" src="images/Penny%20Pic%2013'.jpg">
+                <img class="galleryimg" src="images/Penny%20Pic%2014.jpg">
+                <img class="galleryimg" src="images/Penny%20Pic%2015.jpg">
+            </div>
+        </div>
+        <!--PUPPY ENDS HERE-->
+
+        <!--PENNY-DAYS STARTS HERE-->
+        <div id="blockfour">
+            <p class="header">Happy Penny-Days!</p>
+
+            <div class="scroll">
+                <img class="galleryimg" src="images/Penny%20Pic%2017.jpg">
+                <img class="galleryimg" src="images/Penny%20Pic%2018.jpg">
+                <img class="galleryimg" src="images/Penny%20Pic%2019.jpg">
+                <img class="galleryimg" src="images/Penny%20Pic%2020.jpg">
+                <img class="galleryimg" src="images/Penny%20Pic%2021.jpg">
+            </div>
+        </div>
+        <!--PENNY-DAYS ENDS HERE-->
+
+        <!--VIDEOS ENDS HERE-->
+        <div id="blockfive">
+            <p class="header">Nasty Girl Content</p>
+
+            <div class="scroll">
+                <video controls class="galleryimg">
+                    <source src="images/Penny%20Video%208.mp4" type="video/mp4"></video>
+                <video controls class="galleryimg">
+                    <source src="images/Penny%20Video%204.mp4" type="video/mp4"></video>
+                <video controls class="galleryimg">
+                    <source src="images/Penny%20Video%202.mp4" type="video/mp4"></video>
+                <video controls class="galleryimg">
+                    <source src="images/Penny%20Video%201.mp4" type="video/mp4"></video>
+                <video controls class="galleryimg">
+                    <source src="images/Penny%20Video%203.mp4" type="video/mp4"></video>
             </div>
 
-            <!-- menu trigger-->
-            <a class="icon" onclick="showMenu()">
-                <img src="https://cdn.glitch.com/36a0c12c-e227-4265-af26-734c4c458206%2Fmenu-24px.svg">
-            </a>
-
         </div>
-        <!--End of Nav Bar-->
+        <footer class="blocknine">
+            <p>Penny the Pointer: The Nastiest Girl in the World!</p>
+        </footer>
+    </div>
+</body>
 
-        <div class="blockone header">New Penny Content</div>
-
-        <div class="#blocktwo"> <img src="images/IMG_1507.JPG"></div>
-        <div class="#blocktwo"> <img src="images/IMG_1202.JPG"></div>
-        <div class="#blocktwo"> <img src="images/IMG_2478.HEIC"></div>
-        <div class="#blocktwo"> <img src="images/Penny%201.HEIC"></div>
-
-        <div class="#blockthree header">The Puppy Years</div>
-
-        <div class="#blockthreeimg"><img src="images/Penny%202.JPG"></div>
-        <div class="#blockthreeimg"><img src="images/Penny%203.JPG"></div>
-        <div class="#blockthreeimg"><img src="images/IMG_1507.JPG"></div>
-        <div class="#blockthreeimg"><img src="images/IMG_1202.JPG"></div>
+</html>

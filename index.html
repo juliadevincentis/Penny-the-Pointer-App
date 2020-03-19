@@ -4,10 +4,18 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--FONTS START HERE-->
     <link rel="stylesheet" href="https://use.typekit.net/xnv3osi.css">
     <link rel="stylesheet" href="https://use.typekit.net/xnv3osi.css">
+    <!--FONTS END HERE-->
+
+    <!--STYLESHEET STARTS HERE-->
     <link rel="stylesheet" href="stylesheet.css">
-    <script src="/script.js" defer></script>
+    <!--STYLESHEET ENDS HERE-->
+
+    <!--JAVA STARTS HERE-->
+    <script src="script.js" defer></script>
+    <!--JAVA ENDS HERE-->
     <title>Penny the Pointer</title>
 </head>
 
@@ -20,9 +28,9 @@
 
         <!-- menu-->
         <div id="myLinks">
-            <a href="index" class="active"></a>
-            <a href="about">About</a>
-            <a href="contact">Gallery </a>
+            <a href="index.html" id="menuactive">Home</a>
+            <a id="menu" href="about.html">About</a>
+            <a id="menu" href="gallery.html">Gallery </a>
         </div>
 
         <!-- menu trigger-->
@@ -33,26 +41,37 @@
     </div>
     <div class="container">
 
-        <div class="blocktwo"> <img src="images/IMG_2478.HEIC"> </div>
+        <div class="blocktwo"> <img src="images/Penny%20Pic%201.jpg"> </div>
 
         <!--Mini Description-->
 
         <div class="blockthree">
             <p class="header">Penny the Pointer</p>
-            <p>This is all about my dog, Penny.</p>
         </div>
 
-        <!-- Carousel-->
-        <div id="blockfour"><img src="images/Penny%206.PNG"></div>
+        <div class="blockfour">
+            <p>The nastiest girl in the world!</p>
+        </div>
 
-        <div id="blockfour1"><img id="blockfour img" src="images/Penny%201.HEIC"></div>
+        <!--Carousel-->
+        <div class="blockfive">
+            <div class="scroll">
+                <img class="blockfiveimg" src="images/Penny%20Pic%202.jpg">
+                <img class="blockfiveimg" src="images/Penny%20Pic%203.jpg">
+                <img class="blockfiveimg" src="images/Penny%20Pic%205.jpg">
+                <img class="blockfiveimg" src="images/Penny%20Pic%206.jpg">
+                <img class="blockfiveimg" src="images/Penny%20Pic%204.jpg">
+            </div>
+        </div>
+        <div id="blocksix" class="header">
+            <p>View the Gallery for more Penny Content!</p>
 
-        <div id="blockfour1"><img src="images/Penny%2010.HEIC"></div>
-
-        <div id="blockfour1"><img src="images/Penny%209.JPG"></div>
-        <div class="blockfive">This is more text about Penty.</div>
-
+        </div>
+        <footer class="blocknine">
+            <p>Penny the Pointer: The Nastiest Girl in the World!</p>
+        </footer>
     </div>
+
 </body>
 
 </html>
